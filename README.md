@@ -5,7 +5,7 @@ Radar map services:
 https://mesonet.agron.iastate.edu/ogc/
 
 Widget configuration:
-'''
+
 nexred: {
 			    include: true,
 			    id: 'Nexrad',
@@ -16,6 +16,6 @@ nexred: {
 			    title: 'Nexrad',
 			    options: {
 			        map: true
-			    }
-			},
-'''
+	}
+},
+
