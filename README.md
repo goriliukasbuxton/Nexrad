@@ -1,11 +1,11 @@
 # Nexrad
-NEXRAD Weather Radar Widget for CMV
+NEXRAD Weather Radar Widget for CMV.
 Inspired by the Iowa State University of Science and Technology,
 Radar map services:
 https://mesonet.agron.iastate.edu/ogc/
 
 Widget configuration:
-
+```
 nexred: {
 			    include: true,
 			    id: 'Nexrad',
@@ -18,4 +18,7 @@ nexred: {
 			        map: true
 	}
 },
+```
+
+Demo:
 
