@@ -51,7 +51,7 @@ define([
 
 
 
-        _ticker: function (m) {
+        _ticker: function (n) {
             m = m + 1
             var n = parseInt(m.toString().slice(-1));
             if (n == 1) {
