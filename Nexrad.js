@@ -105,9 +105,7 @@ define([
 
 
         _init: function () {
-            var period = 400; // ms
-            var end = 100000;
-            var counter = 0;
+
             var subs = ["mesonet", "mesonet1", "mesonet2", "mesonet3"];
             nexrad50m = new esri.layers.WebTiledLayer("http://${subDomain}.agron.iastate.edu/cache/tile.py/1.0.0/nexrad-n0q-900913-m50m/${level}/${col}/${row}.png", {
                 id: "nexrad50",
